@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 340px;
+    max-width: 340px;
+}
+
+input {
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+input[type="text"], textarea {
+    background-color: #ececec;
+}
+
+input[type="text"]:focus {
+    background-color: white;
+    outline: none;
+    border: 1px solid rgb(236,239,241);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+input::placeholder {
+    color: rgb(143,143,144);
+  }
+
+#input-btn {
+    background-color: rgb(0, 153, 255);
+    border: 1px solid rgb(0, 153, 255);
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#input-btn:hover {
+    background-color: rgba(0, 153, 255, 0.692);
+}
+
+#input-btn:active {
+    box-shadow: none;
+    transform: translateY(1px);
+}
+
+#url-btn {
+    background-color: rgb(0, 153, 255);
+    border: 1px solid rgb(0, 153, 255);
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#url-btn:hover {
+    background-color: rgba(0, 153, 255, 0.692);
+}
+
+#url-btn:active {
+    box-shadow: none;
+    transform: translateY(1px);
+}
+
+#delete-btn {
+    background-color: white;
+    border: 1px solid rgba(3, 3, 3, 0.062);
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(0, 153, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#delete-btn:hover {
+    background-color: rgba(240, 239, 239, 0.904);
+}
+
+#delete-btn:active {
+    box-shadow: none;
+    transform: translateY(1px);
+}
+
+ul {
+    margin-top: 30px;
+    list-style: none;
+    padding-left: 0; 
+}
+
+li {
+    margin-top: 10px;
+}
+
+a { 
+    word-wrap: break-word;
+    color: #5194ED;
+    font-size: 15px;
+    
+
+}
